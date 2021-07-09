@@ -2,32 +2,102 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0%;
 }
+
+        /* First Section */
+
 h1 {
     font-size: 50px;
 }
 .my-name {
     color:darkorange;
 }
-section {
+p{
+    text-align: justify;
+}
+.flex-disp {
     display: flex;
 }
 .half-width {
     width: 50%;
     padding-left: 5%;
+    padding-top: 85px;
+    padding-bottom: 85px;
 }
 .half-width img {
-    width: 80%;
+    width: 90%;
 }
 .hire-button {
     text-decoration: none;
     /* background-color: darkorange; */
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(45deg,lightsalmon, tomato);    
     color: white;
     font-weight: 700;
     padding: 10px 40px;
     border-radius: 5px;
 }
 .top-banner {
-    background-image: url(images/top-banner.png);
+    background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+        /* Second Section  */
+
+.second-sec{
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;   
+}
+.resume-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon, tomato);    
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;    
+}
+.half-width-sec2{
+    width: 50%;
+    padding-left: 5%; 
+    padding-top: 85px;
+    padding-bottom: 85px;      
+}
+.half-width-sec2 img{
+    width: 85%;
+}
+.sec2-para{
+    padding-right: 10%;
+}
+
+/* Third Section */
+
+.sec3-div{
+    width: 40%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);
+    margin: 0% 3% 10% 4%;
+}
+.s3-bg{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0% 30%;
+    background-size: 6.3%;
+}
+.s3-h1{
+    font-size: 30px;
+}
+#s3-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#s3-border-pro{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(255, 0, 140), rgb(255, 238, 3));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
